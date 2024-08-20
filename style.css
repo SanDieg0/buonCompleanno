@@ -1,0 +1,99 @@
+/* Reset CSS básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+
+    
+}
+
+/*TEXTOS E IMAGENES*/
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+div{
+    align-self: center;
+}
+
+/* BOTON*/
+
+button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+/* button:hover {
+    background-color: #0056b3;
+} */
+
+/*CENTRADO DE ELEMENTOS*/
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* html{
+
+    background: linear-gradient(90deg, rgba(255,0,0,0.02) 0%, rgba(255,127,0,0.02) 14.3%, rgba(255,255,0,0.02) 28.6%, rgba(0,255,0,0.02) 42.85%, rgba(0,0,255,0.02) 57.14%, rgba(75,0,130,0.02) 71.42%, rgba(143,0,255,0.02) 85.71%);
+
+} */
+
+.centered-div {
+    width: 300px; /* Ajusta según tus necesidades */
+    height: 200px; /* Ajusta según tus necesidades */
+
+}
+
+
+
+
+/*PARA CODIGO JS*/
+#boton{
+    display: block;
+    border-radius: 2%;
+    width: 100vw;
+    height: 100vh;
+
+    background: none;
+}
+/* #contenedorLetra{
+    display: none; 
+} */
+
