@@ -47,7 +47,7 @@ function playAudioAfterDelay() {
     }, 3000); // 3000 milisegundos = 3 segundos
 }
 
-
+/*
 function tiempoFrase(frase) {
     if (frase.length < 4) {
         return 2500;
@@ -67,9 +67,9 @@ function* inserText(text) {
     }
 }
 
-let insertarTexto;
+let insertarTexto;*/
 
-function intervalo() {
+/*function intervalo() {
     function nextFrase() {
         const { value, done } = insertarTexto.next();
         if (!done) {
@@ -91,7 +91,7 @@ buon compleanno, bella.`;
         }
     }
     nextFrase();
-}
+}*/
 
 function inicio() {
     mostOcul(botonArcoiris);
